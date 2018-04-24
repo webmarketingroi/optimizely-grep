@@ -1,0 +1,29 @@
+{
+    "name": "webmarketingroi/optimizely-grep",
+    "description": "A tool for searching in Optimizely projects",
+    "license": "MIT",
+    "keywords": [
+        "optimizely",
+        "grep"
+    ],
+    "homepage": "https://github.com/webmarketingroi/optimizely-grep",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "webmarketingroi/optimizely-php": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+	"psr-4": {
+	    "WebMarketingROI\\OptimizelyGrep\\": "src/WebMarketingROI/OptimizelyGrep"
+	}
+    },
+    "autoload-dev": {
+	"psr-4": {
+	    "OptimizelyPHPTest\\": "tests/OptimizelyPHPTest/"
+	}
+    }
+}
+

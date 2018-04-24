@@ -1,0 +1,10 @@
+/nbproject
+vendor/*
+composer.phar
+composer.lock
+examples/auth_credentials.json
+examples/access_token.json
+tests/auth_credentials.json
+tests/access_token.json
+coverage
+data/auth_credentials.json
